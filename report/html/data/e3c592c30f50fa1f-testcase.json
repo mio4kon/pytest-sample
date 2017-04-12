@@ -1,0 +1,86 @@
+{
+  "uid" : "e3c592c30f50fa1f",
+  "name" : "TestSample.test_answer",
+  "title" : "Test answer",
+  "time" : {
+    "start" : 1491995961851,
+    "stop" : 1491995961853,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3c7db82097d6bb32",
+    "name" : "test.test_sample",
+    "title" : "Test sample"
+  },
+  "steps" : [ {
+    "name" : "注册",
+    "title" : "注册",
+    "time" : {
+      "start" : 1491995961853,
+      "stop" : 1491995961853,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "登录账号:<test.test_sample.TestSample object at 0x105996908>",
+    "title" : "登录账号:<test.test_sample.TestSample object at 0x105996908>",
+    "time" : {
+      "start" : 1491995961853,
+      "stop" : 1491995961853,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "my attach",
+    "source" : "0f1c245d-f978-4b35-8ca6-4a7e1dbf6b9d-attachment.txt",
+    "type" : "text/plain",
+    "size" : 20,
+    "uid" : "4e23f7b45f9743f4"
+  }, {
+    "title" : "Captured stdout setup",
+    "source" : "7a1badbc-5470-4adc-b4ab-ff049406dc45-attachment.txt",
+    "type" : "text/plain",
+    "size" : 11,
+    "uid" : "fadfd445f4edda98"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "70173-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_sample"
+  } ],
+  "parameters" : [ ]
+}

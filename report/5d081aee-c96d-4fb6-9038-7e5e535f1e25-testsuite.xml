@@ -1,0 +1,49 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491998348141" stop="1491998348178">
+  <name>test.test_case_link</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491998348141" status="failed" stop="1491998348175">
+      <name>test_foo</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>@pytest.allure.testcase('http://my.tms.org/TESTCASE-1')
+    def test_foo():
+&gt;       assert False
+E       assert False
+
+test/test_case_link.py:8: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="testId" value="http://my.tms.org/TESTCASE-1"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491998348176" status="passed" stop="1491998348177">
+      <name>TestBar.test_bar1</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="TESTCASE-3"/>
+        <label name="testId" value="http://my.tms.org/browse/TESTCASE-2"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491998348177" status="passed" stop="1491998348178">
+      <name>TestBar.test_bar2</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="http://my.tms.org/browse/TESTCASE-2"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

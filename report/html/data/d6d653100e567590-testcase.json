@@ -1,0 +1,92 @@
+{
+  "uid" : "d6d653100e567590",
+  "name" : "TestSample.test_answer",
+  "title" : "Test answer",
+  "time" : {
+    "start" : 1491993646150,
+    "stop" : 1491993646151,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a590af0e692e7b08",
+    "name" : "test.test_sample",
+    "title" : "Test sample"
+  },
+  "steps" : [ {
+    "name" : "第一步操作 count + 1",
+    "title" : "第一步操作 count + 1",
+    "time" : {
+      "start" : 1491993646151,
+      "stop" : 1491993646151,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "第二步操作  断言结果为11",
+    "title" : "第二步操作  断言结果为11",
+    "time" : {
+      "start" : 1491993646151,
+      "stop" : 1491993646151,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "my attach",
+    "source" : "5f066f3f-afd6-41bf-90f2-67967afb08ce-attachment.txt",
+    "type" : "text/plain",
+    "size" : 20,
+    "uid" : "14bf9dbd583519d0"
+  }, {
+    "title" : "Captured stdout setup",
+    "source" : "c052b946-dbdf-4134-b218-38e13ebbc8a1-attachment.txt",
+    "type" : "text/plain",
+    "size" : 11,
+    "uid" : "75a3f61b81e2852a"
+  }, {
+    "title" : "Captured stdout call",
+    "source" : "e1ace005-fce8-4ed0-a7aa-9c9efdc25058-attachment.txt",
+    "type" : "text/plain",
+    "size" : 25,
+    "uid" : "9cff717cafe13a55"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "69291-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_sample"
+  } ],
+  "parameters" : [ ]
+}

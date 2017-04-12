@@ -1,0 +1,47 @@
+{
+  "uid" : "b875c4295b447bd5",
+  "name" : "test_minor",
+  "title" : "Test minor",
+  "time" : {
+    "start" : 1491998256789,
+    "stop" : 1491998256791,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "@pytest.allure.severity(pytest.allure.severity_level.MINOR)\n    def test_minor():\n>       assert False\nE       assert False\n\ntest/test_severity.py:10: AssertionError"
+  },
+  "description" : null,
+  "severity" : "MINOR",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4dbeefac199deb38",
+    "name" : "test.test_severity",
+    "title" : "Test severity"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test.test_severity"
+  }, {
+    "name" : "thread",
+    "value" : "71271-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  } ],
+  "parameters" : [ ]
+}

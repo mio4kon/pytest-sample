@@ -1,0 +1,50 @@
+{
+  "uid" : "68ec8f124a5303d8",
+  "name" : "TestSample2.test_answer_2",
+  "title" : "Test answer 2",
+  "time" : {
+    "start" : 1491993112034,
+    "stop" : 1491993112035,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "efdf1fdc6c73b4c2",
+    "name" : "test.test_sample_2",
+    "title" : "Test sample 2"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "4b3a81ed-f4e1-4538-a27f-d3dbaba988bb-attachment.txt",
+    "type" : "text/plain",
+    "size" : 27,
+    "uid" : "3ae0aacbe05dcf21"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "69008-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_sample_2"
+  } ],
+  "parameters" : [ ]
+}

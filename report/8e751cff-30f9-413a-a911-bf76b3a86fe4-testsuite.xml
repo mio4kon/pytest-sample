@@ -1,0 +1,42 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491998348178" stop="1491998348182">
+  <name>test.test_feature</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491998348178" status="failed" stop="1491998348181">
+      <name>test_minor</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>@allure.feature('Feature1')
+    @allure.story('Story1')
+    def test_minor():
+&gt;       assert False
+E       assert False
+
+test/test_feature.py:10: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="Story1"/>
+        <label name="feature" value="Feature1"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491998348181" status="passed" stop="1491998348182">
+      <name>TestBar.test_bar</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="Feature2"/>
+        <label name="story" value="Story4"/>
+        <label name="story" value="Story2"/>
+        <label name="story" value="Story3"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

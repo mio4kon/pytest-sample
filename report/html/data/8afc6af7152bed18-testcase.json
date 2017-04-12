@@ -1,0 +1,53 @@
+{
+  "uid" : "8afc6af7152bed18",
+  "name" : "test_minor",
+  "title" : "Test minor",
+  "time" : {
+    "start" : 1491998348178,
+    "stop" : 1491998348181,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "@allure.feature('Feature1')\n    @allure.story('Story1')\n    def test_minor():\n>       assert False\nE       assert False\n\ntest/test_feature.py:10: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "cda285ad643c2446",
+    "name" : "test.test_feature",
+    "title" : "Test feature"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "feature",
+    "value" : "Feature1"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_feature"
+  }, {
+    "name" : "thread",
+    "value" : "71342-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

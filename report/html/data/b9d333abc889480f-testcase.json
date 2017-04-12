@@ -1,0 +1,53 @@
+{
+  "uid" : "b9d333abc889480f",
+  "name" : "test_foo",
+  "title" : "Test foo",
+  "time" : {
+    "start" : 1491998348141,
+    "stop" : 1491998348175,
+    "duration" : 34
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "@pytest.allure.testcase('http://my.tms.org/TESTCASE-1')\n    def test_foo():\n>       assert False\nE       assert False\n\ntest/test_case_link.py:8: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : {
+    "name" : "http://my.tms.org/TESTCASE-1",
+    "url" : "http://my.tms.org/TESTCASE-1"
+  },
+  "suite" : {
+    "uid" : "164f56f849ba1638",
+    "name" : "test.test_case_link",
+    "title" : "Test case link"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test.test_case_link"
+  }, {
+    "name" : "thread",
+    "value" : "71342-MainThread"
+  }, {
+    "name" : "testId",
+    "value" : "http://my.tms.org/TESTCASE-1"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "25ecd4837b9a8ac",
+  "name" : "TestBar.test_bar2",
+  "title" : "Test bar 2",
+  "time" : {
+    "start" : 1491998256782,
+    "stop" : 1491998256783,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8e6e241192d1459c",
+    "name" : "test.test_issue",
+    "title" : "Test issue"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ {
+    "name" : "http://jira.lan/browse/ISSUE-2",
+    "url" : "http://jira.lan/browse/ISSUE-2"
+  } ],
+  "labels" : [ {
+    "name" : "issue",
+    "value" : "http://jira.lan/browse/ISSUE-2"
+  }, {
+    "name" : "thread",
+    "value" : "71271-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_issue"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

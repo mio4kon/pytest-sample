@@ -1,0 +1,26 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491998348189" stop="1491998348191">
+  <name>test.test_sample_2</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491998348189" status="passed" stop="1491998348189">
+      <name>TestSample2.test_answer</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491998348190" status="passed" stop="1491998348191">
+      <name>TestSample2.test_answer_2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

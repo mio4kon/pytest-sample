@@ -1,0 +1,47 @@
+{
+  "uid" : "a3234ef8e7ba96c0",
+  "name" : "TestBar.test_bar",
+  "title" : "Test bar",
+  "time" : {
+    "start" : 1491997111679,
+    "stop" : 1491997111680,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "70f5202aedeeabf6",
+    "name" : "test.test_severity",
+    "title" : "Test severity"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test.test_severity"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "70720-MainThread"
+  } ],
+  "parameters" : [ ]
+}

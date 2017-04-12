@@ -1,0 +1,50 @@
+{
+  "uid" : "819e3c001b8fb45b",
+  "name" : "TestBar.test_bar2",
+  "title" : "Test bar 2",
+  "time" : {
+    "start" : 1491998256776,
+    "stop" : 1491998256778,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "http://my.tms.org/browse/TESTCASE-2",
+    "url" : "http://my.tms.org/browse/TESTCASE-2"
+  },
+  "suite" : {
+    "uid" : "b7f103a047d26903",
+    "name" : "test.test_case_link",
+    "title" : "Test case link"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test.test_case_link"
+  }, {
+    "name" : "thread",
+    "value" : "71271-MainThread"
+  }, {
+    "name" : "testId",
+    "value" : "http://my.tms.org/browse/TESTCASE-2"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,36 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491998348191" stop="1491998348194">
+  <name>test.test_severity</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491998348191" status="failed" stop="1491998348193">
+      <name>test_minor</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>@pytest.allure.severity(pytest.allure.severity_level.MINOR)
+    def test_minor():
+&gt;       assert False
+E       assert False
+
+test/test_severity.py:10: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1491998348194" status="passed" stop="1491998348194">
+      <name>TestBar.test_bar</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

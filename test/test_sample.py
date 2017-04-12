@@ -1,12 +1,19 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Mio4kon'
+import allure
 
 
 class TestSample:
-    def test_answer(self, count):
-        print('test_answer get count %s' % count)
-        assert count == 10
+    def test_login(self):
+        allure.attach('描述', '这是一个注册登录的case')
+        self.register()
+        result = self.login('mio4kon')
+        assert result
 
-    def test_answer_2(self, count):
-        print('test_answer_2 get count %s' % count)
-        assert count == 10
+    @allure.step(title="登录账号:{1}")
+    def login(self, account):
+        return True
+
+    @allure.step(title="注册")
+    def register(self):
+        pass

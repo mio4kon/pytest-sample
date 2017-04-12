@@ -1,0 +1,47 @@
+{
+  "uid" : "d02ec2887a65dc8e",
+  "name" : "TestSample2.test_answer",
+  "title" : "Test answer",
+  "time" : {
+    "start" : 1491997636624,
+    "stop" : 1491997636626,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Skipped: Not suitable with selected labels: ('severity', 'blocker'), ('severity', 'critic...",
+    "stackTrace" : "Skipped: Not suitable with selected labels: ('severity', 'blocker'), ('severity', 'critical')."
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "77c7ee71d7b9a156",
+    "name" : "test.test_sample_2",
+    "title" : "Test sample 2"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_sample_2"
+  }, {
+    "name" : "thread",
+    "value" : "70962-MainThread"
+  } ],
+  "parameters" : [ ]
+}

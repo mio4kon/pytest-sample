@@ -1,0 +1,31 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1491998348187" stop="1491998348188">
+  <name>test.test_sample</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1491998348187" status="passed" stop="1491998348188">
+      <name>TestSample.test_login</name>
+      <attachments>
+        <attachment source="116f56ae-7b7c-4a7f-8009-06ef8e3290a2-attachment.txt" title="描述" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="71342-MainThread"/>
+        <label name="host" value="mio4kondeMacBook-Pro.local"/>
+      </labels>
+      <steps>
+        <step start="1491998348188" status="passed" stop="1491998348188">
+          <name>注册</name>
+          <title>注册</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1491998348188" status="passed" stop="1491998348188">
+          <name>登录账号:mio4kon</name>
+          <title>登录账号:mio4kon</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

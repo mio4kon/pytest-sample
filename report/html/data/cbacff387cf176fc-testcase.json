@@ -1,0 +1,92 @@
+{
+  "uid" : "cbacff387cf176fc",
+  "name" : "TestSample.test_answer",
+  "title" : "Test answer",
+  "time" : {
+    "start" : 1491993467064,
+    "stop" : 1491993467067,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 3,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d728acc1dd5c53c9",
+    "name" : "test.test_sample",
+    "title" : "Test sample"
+  },
+  "steps" : [ {
+    "name" : "第一步操作 count + 1",
+    "title" : "第一步操作 count + 1",
+    "time" : {
+      "start" : 1491993467066,
+      "stop" : 1491993467066,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "第二步操作  断言结果为11",
+    "title" : "第二步操作  断言结果为11",
+    "time" : {
+      "start" : 1491993467066,
+      "stop" : 1491993467066,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "my attach",
+    "source" : "fb10154e-4c13-40be-9b0f-d0c048ba45de-attachment.txt",
+    "type" : "text/plain",
+    "size" : 20,
+    "uid" : "68e03a0bb2e06e92"
+  }, {
+    "title" : "Captured stdout setup",
+    "source" : "9a180e80-a7ec-400e-b33e-a54ee33e4ae4-attachment.txt",
+    "type" : "text/plain",
+    "size" : 11,
+    "uid" : "98a5493874a7a7de"
+  }, {
+    "title" : "Captured stdout call",
+    "source" : "cc0b496a-8157-4068-b044-0cf20e0a1fba-attachment.txt",
+    "type" : "text/plain",
+    "size" : 25,
+    "uid" : "9507c865a5365484"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "69180-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_sample"
+  } ],
+  "parameters" : [ ]
+}

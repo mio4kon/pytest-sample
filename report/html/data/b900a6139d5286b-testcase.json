@@ -1,0 +1,80 @@
+{
+  "uid" : "b900a6139d5286b",
+  "name" : "TestSample.test_login",
+  "title" : "Test login",
+  "time" : {
+    "start" : 1491996678349,
+    "stop" : 1491996678350,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e5ce066a1b716619",
+    "name" : "test.test_sample",
+    "title" : "Test sample"
+  },
+  "steps" : [ {
+    "name" : "注册",
+    "title" : "注册",
+    "time" : {
+      "start" : 1491996678350,
+      "stop" : 1491996678350,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "登录账号:mio4kon",
+    "title" : "登录账号:mio4kon",
+    "time" : {
+      "start" : 1491996678350,
+      "stop" : 1491996678350,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "描述",
+    "source" : "2dab4bd9-afe7-4f20-9028-2a4c0c43052b-attachment.txt",
+    "type" : "text/plain",
+    "size" : 31,
+    "uid" : "c46d897eb94abc72"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_sample"
+  }, {
+    "name" : "thread",
+    "value" : "70531-MainThread"
+  } ],
+  "parameters" : [ ]
+}

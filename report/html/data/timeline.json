@@ -1,0 +1,152 @@
+{
+  "hosts" : [ {
+    "title" : "mio4kondeMacBook-Pro.local",
+    "threads" : [ {
+      "title" : "71342-MainThread",
+      "testCases" : [ {
+        "uid" : "a6d6a40a1bcc22b0",
+        "name" : "test_foo",
+        "title" : "Test foo",
+        "time" : {
+          "start" : 1491998348182,
+          "stop" : 1491998348184,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "ef814f701f3ac891",
+        "name" : "TestBar.test_bar1",
+        "title" : "Test bar 1",
+        "time" : {
+          "start" : 1491998348185,
+          "stop" : 1491998348186,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f63b4c82fc62104",
+        "name" : "TestBar.test_bar2",
+        "title" : "Test bar 2",
+        "time" : {
+          "start" : 1491998348186,
+          "stop" : 1491998348187,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c5960262a25e02d1",
+        "name" : "test_minor",
+        "title" : "Test minor",
+        "time" : {
+          "start" : 1491998348191,
+          "stop" : 1491998348193,
+          "duration" : 2
+        },
+        "severity" : "MINOR",
+        "status" : "FAILED"
+      }, {
+        "uid" : "fe41430478d652cc",
+        "name" : "TestBar.test_bar",
+        "title" : "Test bar",
+        "time" : {
+          "start" : 1491998348194,
+          "stop" : 1491998348194,
+          "duration" : 0
+        },
+        "severity" : "CRITICAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b9d333abc889480f",
+        "name" : "test_foo",
+        "title" : "Test foo",
+        "time" : {
+          "start" : 1491998348141,
+          "stop" : 1491998348175,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "1a223f3cf0b598ab",
+        "name" : "TestBar.test_bar1",
+        "title" : "Test bar 1",
+        "time" : {
+          "start" : 1491998348176,
+          "stop" : 1491998348177,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "55277bd4ec1953b3",
+        "name" : "TestBar.test_bar2",
+        "title" : "Test bar 2",
+        "time" : {
+          "start" : 1491998348177,
+          "stop" : 1491998348178,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8afc6af7152bed18",
+        "name" : "test_minor",
+        "title" : "Test minor",
+        "time" : {
+          "start" : 1491998348178,
+          "stop" : 1491998348181,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "3a83aa3c72840ec2",
+        "name" : "TestBar.test_bar",
+        "title" : "Test bar",
+        "time" : {
+          "start" : 1491998348181,
+          "stop" : 1491998348182,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f6180f1ac6c9cbaa",
+        "name" : "TestSample2.test_answer",
+        "title" : "Test answer",
+        "time" : {
+          "start" : 1491998348189,
+          "stop" : 1491998348189,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5c7ab181505eeb20",
+        "name" : "TestSample2.test_answer_2",
+        "title" : "Test answer 2",
+        "time" : {
+          "start" : 1491998348190,
+          "stop" : 1491998348191,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "92af885ea488dffe",
+        "name" : "TestSample.test_login",
+        "title" : "Test login",
+        "time" : {
+          "start" : 1491998348187,
+          "stop" : 1491998348188,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

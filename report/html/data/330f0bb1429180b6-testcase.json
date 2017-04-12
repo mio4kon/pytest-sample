@@ -1,0 +1,53 @@
+{
+  "uid" : "330f0bb1429180b6",
+  "name" : "test_foo",
+  "title" : "Test foo",
+  "time" : {
+    "start" : 1491998256778,
+    "stop" : 1491998256781,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "@pytest.allure.issue('http://jira.lan/browse/ISSUE-1')\n    def test_foo():\n>       assert False\nE       assert False\n\ntest/test_issue.py:9: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8e6e241192d1459c",
+    "name" : "test.test_issue",
+    "title" : "Test issue"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ {
+    "name" : "http://jira.lan/browse/ISSUE-1",
+    "url" : "http://jira.lan/browse/ISSUE-1"
+  } ],
+  "labels" : [ {
+    "name" : "issue",
+    "value" : "http://jira.lan/browse/ISSUE-1"
+  }, {
+    "name" : "thread",
+    "value" : "71271-MainThread"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_issue"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

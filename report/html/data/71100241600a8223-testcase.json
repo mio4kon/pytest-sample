@@ -1,0 +1,47 @@
+{
+  "uid" : "71100241600a8223",
+  "name" : "test_minor",
+  "title" : "Test minor",
+  "time" : {
+    "start" : 1491997636629,
+    "stop" : 1491997636630,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Skipped: Not suitable with selected labels: ('severity', 'blocker'), ('severity', 'critic...",
+    "stackTrace" : "Skipped: Not suitable with selected labels: ('severity', 'blocker'), ('severity', 'critical')."
+  },
+  "description" : null,
+  "severity" : "MINOR",
+  "status" : "CANCELED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b209a5d263828753",
+    "name" : "test.test_severity",
+    "title" : "Test severity"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "test.test_severity"
+  }, {
+    "name" : "host",
+    "value" : "mio4kondeMacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "thread",
+    "value" : "70962-MainThread"
+  } ],
+  "parameters" : [ ]
+}

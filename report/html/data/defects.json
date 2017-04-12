@@ -1,0 +1,62 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "6f13159b6c7a26df",
+      "failure" : {
+        "message" : "AssertionError: assert False",
+        "stackTrace" : "@pytest.allure.issue('http://jira.lan/browse/ISSUE-1')\n    def test_foo():\n>       assert False\nE       assert False\n\ntest/test_issue.py:9: AssertionError"
+      },
+      "testCases" : [ {
+        "uid" : "a6d6a40a1bcc22b0",
+        "name" : "test_foo",
+        "title" : "Test foo",
+        "time" : {
+          "start" : 1491998348182,
+          "stop" : 1491998348184,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "c5960262a25e02d1",
+        "name" : "test_minor",
+        "title" : "Test minor",
+        "time" : {
+          "start" : 1491998348191,
+          "stop" : 1491998348193,
+          "duration" : 2
+        },
+        "severity" : "MINOR",
+        "status" : "FAILED"
+      }, {
+        "uid" : "b9d333abc889480f",
+        "name" : "test_foo",
+        "title" : "Test foo",
+        "time" : {
+          "start" : 1491998348141,
+          "stop" : 1491998348175,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "8afc6af7152bed18",
+        "name" : "test_minor",
+        "title" : "Test minor",
+        "time" : {
+          "start" : 1491998348178,
+          "stop" : 1491998348181,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}
