@@ -1,24 +1,19 @@
-/**
- * Created by mio4kon on 17/4/25.
- */
-
-var TAG = '[MOCK_ENV]';
-var mysql = require('mysql');
-
+/* 
+  sample: 
+    modify all status code of http://httpbin.org/ to 404
+  test:
+    curl -I 'http://httpbin.org/user-agent' --proxy http://127.0.0.1:8001
+  expected response:
+    HTTP/1.1 404 Not Found
+*/
 module.exports = {
-    summary: 'a rule to modify response',
-    *beforeSendResponse(requestDetail, responseDetail) {
-        console.log(TAG, "监听到的URL:", requestDetail.url);
-       
-        const newResponse = responseDetail.response;
-        return new Promise((resolve, reject) => {
-           newResponse.body = '111';
-           resolve({response: newResponse});
-           
-        });
-    },
+  *beforeSendResponse(requestDetail, responseDetail) {
+    if (requestDetail.url.indexOf('http://httpbin.org') === 0) {
+      const newResponse = responseDetail.response;
+      newResponse.statusCode = 404;
+      return {
+        response: newResponse
+      };
+    }
+  }
 };
-
-
-
-
